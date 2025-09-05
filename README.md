@@ -4,6 +4,6 @@ It uses a pretrained ResNet-50 model to embed images into vectors, stores them i
 
 # Usage
 1. Place images under data/images
-2. ingest and embed images: python -m cli.build_embeddings --images data/images --thumbs data/thumbs --index data/index
-3. Build FIASS index: python -m cli.build_faiss --index data/index --renorm
-4. Launch Web UI: python -m streamlit run ui/app_streamlit.py
+2. ingest and embed images: ```python -m cli.build_embeddings --images data/images --thumbs data/thumbs --index data/index```
+3. Build FIASS index: ```python -m cli.build_faiss --index data/index --renorm```
+4. Launch Web UI: ```python -m streamlit run ui/app_streamlit.py```
