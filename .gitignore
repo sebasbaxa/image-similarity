@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Ignore contents of data/images, data/index, data/thumbs
+data/images/*
+data/index/*
+data/thumbs/*
+
+!data/images/.gitkeep
+!data/index/.gitkeep
+!data/thumbs/.gitkeep
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
