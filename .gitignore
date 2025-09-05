@@ -7,13 +7,14 @@ __pycache__/
 env/
 venv/
 
-# Ignore contents of data/images, data/index, data/thumbs
+# Ignore contents but keep the folders
 data/images/*
-data/index/*
-data/thumbs/*
-
 !data/images/.gitkeep
+
+data/index/*
 !data/index/.gitkeep
+
+data/thumbs/*
 !data/thumbs/.gitkeep
 
 # Streamlit cache
